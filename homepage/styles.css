@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999; /* Ensure header stays on top */
+}
+
+.site-name {
+    margin: 0;
+    float: left; /* Move the site name to the left */
+}
+
+.banner {
+    margin-top: 80px; /* Adjust this value based on the height of the header */
+}
+
+.banner img {
+    border-radius: 10px;
+    margin: 10px;
+    width: 94%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.topics-heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.topics-table {
+    margin: 0 auto; /* Center the table */
+    width: 300px; /* Adjust the width of the table as needed */
+}
+
+.topics-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 260px; /* Adjust this value based on the combined height of the header, banner, and topics */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

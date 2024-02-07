@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  box-sizing: border-box;
+  display: flex; /* Add this line */
+  align-items: center; /* Add this line */
+}
+
+.site-name {
+  margin: 0;
+  margin-left: 10px; /* Add this line */
+}
+
+.logo-container {
+  display: flex; /* Add this line */
+  align-items: center; /* Add this line */
+}
+
+.banner {
+  margin-top: 100px;
+}
+
+.banner img {
+  border-radius: 10px;
+  margin: 10px;
+  width: 94%;
+  height: auto;
+}
+
+.topics-heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.topics-table {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.topics-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  margin-top: 260px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.topics-box {
+  background-color: #FFFFFF;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  font-family: 'Material Symbols Outlined';
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.nav-icon {
+  margin-left: auto; 
+  cursor: pointer;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');

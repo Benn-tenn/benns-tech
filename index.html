@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
-    <link rel="stylesheet" href="homepage/styles.css">
-    <!-- Font link -->
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Days:wght@700&family=Horizon:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 class="site-name">Benn's Tech</h1>
+      <div class="logo-container">
+        <img class="logo" src="/homepage/_56a23ff3-b1be-4993-ba49-4eab119323d6.jpeg" alt="Logo">
+      </div>
+      <h1 class="site-name">Benn's Tech</h1>
+      <i class="fas fa-bars nav-icon"></i> <!-- Add this line -->
     </header>
     
     <div class="banner">
-        <img src="/homepage/banner-image.jpg" alt="Banner Image">
+        <img src="/homepage/image/banner-image.jpg" alt="Banner Image">
     </div>
 
-    <h2 class="topics-heading">Topics</h2>
-    <table class="topics-table">
+    <div class="topics-box">
+      <h2 class="topics-heading">Topics</h2>
+      <table class="topics-table">
         <tr>
-            <td>Topic 1</td>
-            <td>Topic 2</td>
+          <td>Topic 1</td>
+          <td>Topic 2</td>
         </tr>
         <tr>
-            <td>Topic 3</td>
-            <td>Topic 4</td>
+          <td>Topic 3</td>
+          <td>Topic 4</td>
         </tr>
-    </table>
+      </table>
+    </div>
 
     <div class="content">
         <!-- Blog posts content will go here -->
